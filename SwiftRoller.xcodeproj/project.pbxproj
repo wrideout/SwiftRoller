@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD32AD0B1C286DB800655429 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32AD0A1C286DB800655429 /* AppDelegate.swift */; };
+		AD32AD0D1C286DB800655429 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32AD0C1C286DB800655429 /* ViewController.swift */; };
+		AD32AD0F1C286DB800655429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD32AD0E1C286DB800655429 /* Assets.xcassets */; };
+		AD32AD121C286DB800655429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD32AD101C286DB800655429 /* Main.storyboard */; };
+		AD32AD1D1C286DB800655429 /* SwiftRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32AD1C1C286DB800655429 /* SwiftRollerTests.swift */; };
+		AD32AD281C286DB800655429 /* SwiftRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32AD271C286DB800655429 /* SwiftRollerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD32AD191C286DB800655429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD32ACFF1C286DB800655429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD32AD061C286DB800655429;
+			remoteInfo = SwiftRoller;
+		};
+		AD32AD241C286DB800655429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD32ACFF1C286DB800655429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD32AD061C286DB800655429;
+			remoteInfo = SwiftRoller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD32AD071C286DB800655429 /* SwiftRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD32AD0A1C286DB800655429 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD32AD0C1C286DB800655429 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD32AD0E1C286DB800655429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD32AD111C286DB800655429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD32AD131C286DB800655429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD32AD181C286DB800655429 /* SwiftRollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRollerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD32AD1C1C286DB800655429 /* SwiftRollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRollerTests.swift; sourceTree = "<group>"; };
+		AD32AD1E1C286DB800655429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD32AD231C286DB800655429 /* SwiftRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD32AD271C286DB800655429 /* SwiftRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRollerUITests.swift; sourceTree = "<group>"; };
+		AD32AD291C286DB800655429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD32AD041C286DB800655429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD32AD151C286DB800655429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD32AD201C286DB800655429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD32ACFE1C286DB800655429 = {
+			isa = PBXGroup;
+			children = (
+				AD32AD091C286DB800655429 /* SwiftRoller */,
+				AD32AD1B1C286DB800655429 /* SwiftRollerTests */,
+				AD32AD261C286DB800655429 /* SwiftRollerUITests */,
+				AD32AD081C286DB800655429 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD32AD081C286DB800655429 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD32AD071C286DB800655429 /* SwiftRoller.app */,
+				AD32AD181C286DB800655429 /* SwiftRollerTests.xctest */,
+				AD32AD231C286DB800655429 /* SwiftRollerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD32AD091C286DB800655429 /* SwiftRoller */ = {
+			isa = PBXGroup;
+			children = (
+				AD32AD0A1C286DB800655429 /* AppDelegate.swift */,
+				AD32AD0C1C286DB800655429 /* ViewController.swift */,
+				AD32AD0E1C286DB800655429 /* Assets.xcassets */,
+				AD32AD101C286DB800655429 /* Main.storyboard */,
+				AD32AD131C286DB800655429 /* Info.plist */,
+			);
+			path = SwiftRoller;
+			sourceTree = "<group>";
+		};
+		AD32AD1B1C286DB800655429 /* SwiftRollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD32AD1C1C286DB800655429 /* SwiftRollerTests.swift */,
+				AD32AD1E1C286DB800655429 /* Info.plist */,
+			);
+			path = SwiftRollerTests;
+			sourceTree = "<group>";
+		};
+		AD32AD261C286DB800655429 /* SwiftRollerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD32AD271C286DB800655429 /* SwiftRollerUITests.swift */,
+				AD32AD291C286DB800655429 /* Info.plist */,
+			);
+			path = SwiftRollerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD32AD061C286DB800655429 /* SwiftRoller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD32AD2C1C286DB800655429 /* Build configuration list for PBXNativeTarget "SwiftRoller" */;
+			buildPhases = (
+				AD32AD031C286DB800655429 /* Sources */,
+				AD32AD041C286DB800655429 /* Frameworks */,
+				AD32AD051C286DB800655429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftRoller;
+			productName = SwiftRoller;
+			productReference = AD32AD071C286DB800655429 /* SwiftRoller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD32AD171C286DB800655429 /* SwiftRollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD32AD2F1C286DB800655429 /* Build configuration list for PBXNativeTarget "SwiftRollerTests" */;
+			buildPhases = (
+				AD32AD141C286DB800655429 /* Sources */,
+				AD32AD151C286DB800655429 /* Frameworks */,
+				AD32AD161C286DB800655429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD32AD1A1C286DB800655429 /* PBXTargetDependency */,
+			);
+			name = SwiftRollerTests;
+			productName = SwiftRollerTests;
+			productReference = AD32AD181C286DB800655429 /* SwiftRollerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD32AD221C286DB800655429 /* SwiftRollerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD32AD321C286DB800655429 /* Build configuration list for PBXNativeTarget "SwiftRollerUITests" */;
+			buildPhases = (
+				AD32AD1F1C286DB800655429 /* Sources */,
+				AD32AD201C286DB800655429 /* Frameworks */,
+				AD32AD211C286DB800655429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD32AD251C286DB800655429 /* PBXTargetDependency */,
+			);
+			name = SwiftRollerUITests;
+			productName = SwiftRollerUITests;
+			productReference = AD32AD231C286DB800655429 /* SwiftRollerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD32ACFF1C286DB800655429 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "William Rideout";
+				TargetAttributes = {
+					AD32AD061C286DB800655429 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AD32AD171C286DB800655429 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AD32AD061C286DB800655429;
+					};
+					AD32AD221C286DB800655429 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AD32AD061C286DB800655429;
+					};
+				};
+			};
+			buildConfigurationList = AD32AD021C286DB800655429 /* Build configuration list for PBXProject "SwiftRoller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD32ACFE1C286DB800655429;
+			productRefGroup = AD32AD081C286DB800655429 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD32AD061C286DB800655429 /* SwiftRoller */,
+				AD32AD171C286DB800655429 /* SwiftRollerTests */,
+				AD32AD221C286DB800655429 /* SwiftRollerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD32AD051C286DB800655429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD32AD0F1C286DB800655429 /* Assets.xcassets in Resources */,
+				AD32AD121C286DB800655429 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD32AD161C286DB800655429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD32AD211C286DB800655429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD32AD031C286DB800655429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD32AD0D1C286DB800655429 /* ViewController.swift in Sources */,
+				AD32AD0B1C286DB800655429 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD32AD141C286DB800655429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD32AD1D1C286DB800655429 /* SwiftRollerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD32AD1F1C286DB800655429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD32AD281C286DB800655429 /* SwiftRollerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD32AD1A1C286DB800655429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD32AD061C286DB800655429 /* SwiftRoller */;
+			targetProxy = AD32AD191C286DB800655429 /* PBXContainerItemProxy */;
+		};
+		AD32AD251C286DB800655429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD32AD061C286DB800655429 /* SwiftRoller */;
+			targetProxy = AD32AD241C286DB800655429 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD32AD101C286DB800655429 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD32AD111C286DB800655429 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD32AD2A1C286DB800655429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD32AD2B1C286DB800655429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AD32AD2D1C286DB800655429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftRoller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrideout.SwiftRoller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD32AD2E1C286DB800655429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftRoller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrideout.SwiftRoller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD32AD301C286DB800655429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftRollerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrideout.SwiftRollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftRoller.app/Contents/MacOS/SwiftRoller";
+			};
+			name = Debug;
+		};
+		AD32AD311C286DB800655429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftRollerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrideout.SwiftRollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftRoller.app/Contents/MacOS/SwiftRoller";
+			};
+			name = Release;
+		};
+		AD32AD331C286DB800655429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftRollerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrideout.SwiftRollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftRoller;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AD32AD341C286DB800655429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftRollerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrideout.SwiftRollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftRoller;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD32AD021C286DB800655429 /* Build configuration list for PBXProject "SwiftRoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD32AD2A1C286DB800655429 /* Debug */,
+				AD32AD2B1C286DB800655429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD32AD2C1C286DB800655429 /* Build configuration list for PBXNativeTarget "SwiftRoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD32AD2D1C286DB800655429 /* Debug */,
+				AD32AD2E1C286DB800655429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD32AD2F1C286DB800655429 /* Build configuration list for PBXNativeTarget "SwiftRollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD32AD301C286DB800655429 /* Debug */,
+				AD32AD311C286DB800655429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD32AD321C286DB800655429 /* Build configuration list for PBXNativeTarget "SwiftRollerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD32AD331C286DB800655429 /* Debug */,
+				AD32AD341C286DB800655429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD32ACFF1C286DB800655429 /* Project object */;
+}
